@@ -38,3 +38,13 @@ Route::get('/laporkan/{id_artikel}/a/{id_author}', 'LaporanController@lapor');
 Route::get('/laporan/','LaporanController@showAllLaporan');
 
 Route::get('/banned/l/{id_laporan}/this-a/{id_artikel}/admin/{id_admin}','LaporanController@banned');
+
+
+Route::get('/coronavirus','CovidController@index');
+Route::get('/coronavirus/create','CovidController@create');
+Route::post('/coronavirus/create/proses','CovidController@create_proses');
+
+Route::get('/coronavirus/edit/{id_covid}','CovidController@edit');
+Route::post('/coronavirus/edit/proses','CovidController@edit_proses');
+
+Route::get('/tips','PublicController@index');
