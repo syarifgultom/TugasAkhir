@@ -37,7 +37,7 @@ class LaporanController extends Controller
 
     public function showAllLaporan()
     {
-        if (session('role') != 'admin') {
+        if (session('role') != 'admin'){
             return redirect('/')->with('access-denied','Access Denied!');
         }else{
             $data['laporan'] = DB::table('laporans')->join('users','laporans.id_user','=','users.id')->join('artikels','laporans.id_artikel','=','artikels.id')->get();
@@ -60,5 +60,3 @@ class LaporanController extends Controller
             return redirect('/home');
         }
     }
-
-}
