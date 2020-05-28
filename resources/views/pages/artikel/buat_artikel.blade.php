@@ -2,7 +2,7 @@
 
 @section('form-artikel')
     <div class="container">
-        <form action="/artikel/buat/proses" method="POST" enctype="multipart/form-data" class="mt-4">
+        <form action="{{ url('/artikel/buat/proses') }}" method="POST" enctype="multipart/form-data" class="mt-4">
             @csrf
             <div class="form-group">
                 <label for="title"><b>Title</b></label>

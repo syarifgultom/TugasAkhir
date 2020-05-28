@@ -30,7 +30,7 @@
                 </button>
                 </div>
                 <div class="modal-body">
-                    <form action="/laporkan/{{ $id_artikel }}/a/{{ $id_author }}" method="GET">
+                    <form action="{{ url('/laporkan/') }}/{{ $id_artikel }}/a/{{ $id_author }}" method="GET">
                         <div class="form-group">
                             <Label for="desk"> <b> Jenis </b> </Label>
                             <select class="custom-select" name="jenis">

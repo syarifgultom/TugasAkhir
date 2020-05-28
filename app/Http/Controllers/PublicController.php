@@ -10,4 +10,15 @@ class PublicController extends Controller
     {
     	return view('pages.tips.tips');
     }
+
+    public function kontak()
+    {
+    	return view('pages.kontak.kontak');
+    }
+
+    public function tentang()
+    {
+    	return view('pages.tentang.tentang-kami');
+    }
+
 }

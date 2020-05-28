@@ -69,6 +69,6 @@
         </div>
     </form>
     @empty
-        <h1 class="display-4">Kosong,, Coba Buat <a href="/artikel/buat"> Artikel </a> Terlebih Dahulu</h1>
+        <h1 class="display-4">Kosong,, Coba Buat <a href="{{url('/artikel/buat ')}}"> Artikel </a> Terlebih Dahulu</h1>
     @endforelse
 @endsection

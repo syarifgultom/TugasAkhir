@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Tugas Akhir PWPWB</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -12,6 +12,9 @@
         <!-- Styles -->
         <style>
             html, body {
+                background: url(images/walpaper.jpg) no-repeat;
+                background-size: 100% 100%;
+                background-attachment:fixed;
                 background-color: #fff;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
@@ -89,7 +92,6 @@
                     <a href="{{url('tips')}}">Tips</a>
                     <a href="{{url('coronavirus')}}">Coronavirus</a>
                     <a href="{{url('tentang-kami')}}">Tentang Kami</a>
-                    <a href="{{url('kontak')}}">Kontak</a>
                 </div>
             </div>
         </div>

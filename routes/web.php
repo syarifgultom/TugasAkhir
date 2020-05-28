@@ -48,3 +48,5 @@ Route::get('/coronavirus/edit/{id_covid}','CovidController@edit');
 Route::post('/coronavirus/edit/proses','CovidController@edit_proses');
 
 Route::get('/tips','PublicController@index');
+Route::get('/kontak','PublicController@kontak');
+Route::get('/tentang-kami','PublicController@tentang');

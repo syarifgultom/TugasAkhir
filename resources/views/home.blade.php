@@ -14,7 +14,7 @@
                         </div>
                     @endif
                     <ul class="list-group">
-                        <a href="/laporan">
+                        <a href="{{url('/laporan')}}">
                             <li class="list-group-item d-flex justify-content-between align-items-center">
                             Laporan
                             <span class="badge badge-primary badge-pill">
@@ -22,7 +22,7 @@
                             </span>
                             </li>
                         </a>
-                        <a href="/artikel">
+                        <a href="{{url('/artikel')}}">
                             <li class="list-group-item d-flex justify-content-between align-items-center">
                             Artikel
                             <span class="badge badge-primary badge-pill"></span>

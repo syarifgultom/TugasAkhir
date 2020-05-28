@@ -6,7 +6,7 @@
 	
 	<div class="container">
 		@if(session('role') == 'admin')
-		<a href="/coronavirus/create" target="_blank" class="btn btn-primary btn-block mb-3">Insert new case!</a>
+		<a href="{{ url('/coronavirus/create') }}" target="_blank" class="btn btn-primary btn-block mb-3">Insert new case!</a>
 
         <!-- Alert -->
         @if(\Session::has('failed'))

@@ -3,7 +3,7 @@
 @section('content')
 	
 	<div class="container">
-		<form method="POST" action="/coronavirus/create/proses">
+		<form method="POST" action="{{ url('/coronavirus/create/proses') }}">
 			@csrf
 			<div class="form-group">
 			    <label for="select">Provinsi</label>
