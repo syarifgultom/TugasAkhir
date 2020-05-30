@@ -25,7 +25,7 @@
   <div class="container py-5">
 
     <div class="row align-items-center mb-5">
-      <div class="col-lg-6 order-2 order-lg-1"><i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
+      <div class="col-lg-6 order-2 order-lg-1"><i class="fa fa-user-circle fa-2x mb-3 text-primary"></i>
         <h2 class="font-weight-light">Lebih Sering Mencuci Tangan</h2>
         <p class="font-italic text-muted mb-4">Cobalah membersihkan tangan Anda secara rutin. Pakai sabun dan air, ataupun cairan pembersih tangan berbahan alkohol. </p>
       </div>
@@ -41,7 +41,7 @@
     </div><br>
 
     <div class="row align-items-center mb-5">
-      <div class="col-lg-6 order-2 order-lg-1"><i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
+      <div class="col-lg-6 order-2 order-lg-1"><i class="fa fa-check fa-2x mb-3 text-primary"></i>
         <h2 class="font-weight-light">Tutup Mulut Saat Batuk</h2>
         <p class="font-italic text-muted mb-4">Saat Anda batuk atau bersin, cobalah tutup mulut dan hidung dengan lengan Anda<b>(Bagian siku)</b>  atau tisu.</p>
       </div>
@@ -50,14 +50,14 @@
 
     <div class="row align-items-center">
       <div class="col-lg-5 px-5 mx-auto"><img src="{{ url('/images/diam.jpg') }}" alt="" class="img-fluid mb-4 mb-lg-0"></div>
-      <div class="col-lg-6"><i class="fa fa-car fa-2x mb-3 text-primary"></i>
+      <div class="col-lg-6"><i class="fa fa-blind fa-2x mb-3 text-primary"></i>
         <h2 class="font-weight-light">Usahakan Tinggal di Rumah</h2>
         <p class="font-italic text-muted mb-4">Tetaplah di rumah Anda masing-masing bila tidak ada keperluan yang sangat penting. apalagi jika anda sedang merasa tidak enak badan.</p>
       </div>
     </div><br>
 
     <div class="row align-items-center mb-5">
-      <div class="col-lg-6 order-2 order-lg-1"><i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
+      <div class="col-lg-6 order-2 order-lg-1"><i class="fa fa-bookmark fa-2x mb-3 text-primary"></i>
         <h2 class="font-weight-light">Lihat Tubuh Anda Sendiri</h2>
         <p class="font-italic text-muted mb-4">Jika Anda demam, batuk, atau kesulitan bernapas segera cari bantuan medis. Ingat! hubungi terlebih dahulu dan jangan langsung pergi keluar. </p>
       </div>

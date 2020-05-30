@@ -96,24 +96,26 @@
                                 </li>
                             @endif
                         @else
-                            <li class="nav-item dropdown">
+                            <!-- <li class="nav-item dropdown">
                                  <a id="navbarDropdown" class="nav-link dropdown-toggle" href="/logout" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>Menu
                                     <span class="caret"></span>
                                  </a>
                                  <ul class="dropdown-menu">
-                                     <a href="{{ url('/artikel') }}" class="dropdown-item" >Artikel</a>
-                                     <a href="{{ url('/tips') }}" class="dropdown-item">Tips</a>
-                                     <a href="{{ url('/coronavirus') }}" class="dropdown-item">Laporan COVID-19</a>
-                                     <a href="{{ url('/tentang-kami') }}" class="dropdown-item">Tentang Kami</a>
+                                     
                                  </ul>
-                            </li>
+                            </li> -->
 
                             <li class="nav-item dropdown">
+                                     
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="/logout" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    <a href="{{ url('/artikel') }}" class="dropdown-item" >Artikel</a>
+                                    <a href="{{ url('/tips') }}" class="dropdown-item">Tips</a>
+                                    <a href="{{ url('/coronavirus') }}" class="dropdown-item">Laporan COVID-19</a>
+                                    <a href="{{ url('/tentang-kami') }}" class="dropdown-item">Tentang Kami</a>
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
