@@ -39,9 +39,9 @@ class ArtikelController extends Controller
         $artikel->id_user = $request->id_user;
 
         if ($artikel->save()) {
-            return redirect('/artikel/lihat')->with('Sukses','Artikel Berhasil Dibuat!');
+            return redirect('/artikel/lihat')->with(['success' => ' Data Berhasil ditambahkan']);
         }else{
-            return redirect('/artikel/buat')->with('Gagal','Artikel Gagal Dibuat!');
+            return redirect('/artikel/buat')->with(['erorr' => ' Data Gagal ditambahkan']);
         }
 
     }
